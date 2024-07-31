@@ -1,0 +1,10 @@
+:root {
+    --background-color: #EF5A6F;
+    --foreground-color: #0000000;
+    --font: "Josefin Sans", sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--font);
+}
