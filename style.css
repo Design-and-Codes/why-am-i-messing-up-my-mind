@@ -1,10 +1,23 @@
 :root {
-    --background-color: #EF5A6F;
-    --foreground-color: #0000000;
-    --font: "Josefin Sans", sans-serif;
+    --background-color: #FF124B;
+    --background-color-dark: #121111;
+    --foreground-color: #FFFFFF;
+    --font: "Montserrat", sans-serif;
 }
 
 body {
     background-color: var(--background-color);
     font-family: var(--font);
+}
+
+h1, h2 {
+    color: var(--foreground-color);
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 20rem 0;
 }
